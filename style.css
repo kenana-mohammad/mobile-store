@@ -1,0 +1,158 @@
+.about {
+    border-bottom: #000 solid 1px;
+    padding: 130px 0 90px 0;
+}
+
+.about .about_img {
+    margin-left: -40px;
+}
+
+.about .titlepage::before {
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 411px;
+    right: -30px;
+    background: url(../images/about_right_cross.jpg);
+    background-repeat: no-repeat;
+    top: -27px;
+    z-index: -1;
+}
+
+.about .about_img figure {
+    margin: 0;
+}
+
+.about .titlepage {
+    border: #000 solid 1px;
+    padding: 40px 40px;
+    z-index: 10018;
+    background: #fff;
+    margin-right: 40px;
+}
+
+ .titlepage p {
+    color: #2a2a2c;
+    font-size: 17px;
+    line-height: 35px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+ .read_more {
+    border: #1a1a1a solid 2px;
+    color: #1a1a1a;
+    font-weight: 500;text-decoration: none;
+    margin-top: 44px;
+}
+.padding-top{margin-top: 100px;}
+.img-mobile{width: 100px;}
+ .titlepage {
+    border: #000 solid 1px;
+    padding: 40px 40px;
+    z-index: 10018;
+    background: #fff;
+    margin-right: 40px;
+}
+.sample-slider{
+    width:70%;
+}
+.sample-slider img{
+    width: 80%;
+}
+.sample-slider .swiper-wrapper{
+    transition-timing-function: linear;
+}
+.Products{margin-top: 100px;}
+#pagination{margin-top: 50px;}
+.card{   transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    z-index: 1;
+}
+.carousel-caption{margin-bottom: 150px!important}
+#owl-demo .item {
+    margin: 3px;margin-top: 100px!important;
+  }
+  #owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .carousel-img:hover{transform: scale(1.2);}
+  /*  */
+  .contact {
+    background: #cc1818;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 90px 0;
+}
+
+.contact .titlepagee h2 {
+    color: #fff;
+    border-bottom: #fff solid 1px;
+}
+
+.main_form {
+    padding: 70px 50px;
+    margin: 0 50px;
+}
+
+.main_form .contactus {
+    border: #fff solid 2px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 57px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.main_form .textarea {
+    border: #fff solid 2px;
+    padding: 0px 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 56px;
+    height: 151px;
+}
+
+.main_form .send_btn {
+    font-size: 22px;
+    transition: ease-in all 0.5s;
+    background-color: #f2f7f5;
+    text-transform: uppercase;
+    color: #8a0505;
+    padding: 15px 0px;
+    max-width: 226px;
+    width: 100%;
+    display: block;
+    margin-top: 30px !important;
+    margin: 0 auto;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.main_form .send_btn:hover {
+    background-color: #000;
+    transition: ease-in all 0.5s;
+    color: #fff;
+}
+
+#request *::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.title-footer{border-bottom: 2px solid #ffffff;margin-bottom: 30px;}
+.icons .fa{border-radius: 20px solid #fff!important;padding: 15px;margin-top: 15px;margin-bottom: 10px;}
+.icons:hover .fa{background-color: #f2f7f5!important;color: rgba(var(--bs-danger-rgb),var(--bs-text-opacity))!important;}
+.fa{border-radius: 30px ;}
